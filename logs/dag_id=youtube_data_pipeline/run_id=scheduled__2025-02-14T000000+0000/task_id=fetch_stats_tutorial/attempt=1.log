@@ -1,0 +1,19 @@
+[2025-02-15T01:38:38.006+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-15T01:38:38.166+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_data_pipeline.fetch_stats_tutorial scheduled__2025-02-14T00:00:00+00:00 [queued]>
+[2025-02-15T01:38:38.289+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_data_pipeline.fetch_stats_tutorial scheduled__2025-02-14T00:00:00+00:00 [queued]>
+[2025-02-15T01:38:38.301+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-15T01:38:38.539+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_stats_tutorial> on 2025-02-14 00:00:00+00:00
+[2025-02-15T01:38:38.652+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_data_pipeline', 'fetch_stats_tutorial', 'scheduled__2025-02-14T00:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/fetch-api-statistic-bigquery.py', '--cfg-path', '/tmp/tmp77xnjlnc']
+[2025-02-15T01:38:38.693+0000] {standard_task_runner.py:105} INFO - Job 36: Subtask fetch_stats_tutorial
+[2025-02-15T01:38:38.685+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=193) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-15T01:38:38.754+0000] {standard_task_runner.py:72} INFO - Started process 204 to run task
+[2025-02-15T01:38:39.960+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_data_pipeline.fetch_stats_tutorial scheduled__2025-02-14T00:00:00+00:00 [running]> on host 79903c5a5135
+[2025-02-15T01:38:44.983+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='youtube_data_pipeline' AIRFLOW_CTX_TASK_ID='fetch_stats_tutorial' AIRFLOW_CTX_EXECUTION_DATE='2025-02-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-14T00:00:00+00:00'
+[2025-02-15T01:38:45.067+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-15T01:39:09.492+0000] {logging_mixin.py:190} INFO - Fetched stats for 50 videos in category tutorial
+[2025-02-15T01:39:09.522+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-15T01:39:09.634+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-15T01:39:09.673+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=youtube_data_pipeline, task_id=fetch_stats_tutorial, run_id=scheduled__2025-02-14T00:00:00+00:00, execution_date=20250214T000000, start_date=20250215T013838, end_date=20250215T013909
+[2025-02-15T01:39:10.014+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-15T01:39:10.455+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-15T01:39:10.591+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

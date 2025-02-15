@@ -1,0 +1,424 @@
+[2025-02-13T16:49:13.134+0000] {processor.py:186} INFO - Started process (PID=919) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:15.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:49:15.350+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:15.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:19.761+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:19.760+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:49:20.026+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:21.904+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:21.902+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:load_bigquery_dag
+[2025-02-13T16:49:22.026+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.025+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:load_bigquery_dag
+[2025-02-13T16:49:22.152+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.151+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:load_bigquery_dag
+[2025-02-13T16:49:22.338+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.337+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:load_bigquery_dag
+[2025-02-13T16:49:22.469+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.468+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:load_bigquery_dag
+[2025-02-13T16:49:22.599+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.599+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:load_bigquery_dag
+[2025-02-13T16:49:22.694+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.693+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:load_bigquery_dag
+[2025-02-13T16:49:22.734+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:22.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:49:27.266+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:27.265+0000] {dag.py:3262} INFO - Creating ORM DAG for load_bigquery_dag
+[2025-02-13T16:49:27.465+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:27.464+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:49:28.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 20.545 seconds
+[2025-02-13T16:49:48.324+0000] {processor.py:186} INFO - Started process (PID=934) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:48.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:49:48.360+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:48.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:48.516+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:48.515+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:49:48.599+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:49:48.696+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:48.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:49:48.899+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:49:48.898+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:49:49.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 1.131 seconds
+[2025-02-13T16:50:20.920+0000] {processor.py:186} INFO - Started process (PID=949) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:20.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:50:20.982+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:20.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:22.421+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:22.421+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:50:22.460+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:22.568+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:22.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:50:22.870+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:22.869+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:50:24.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 3.515 seconds
+[2025-02-13T16:50:57.297+0000] {processor.py:186} INFO - Started process (PID=964) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:57.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:50:57.511+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:57.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:58.824+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:58.823+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:50:58.883+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:50:59.083+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:59.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:50:59.220+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:50:59.219+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:50:59.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 2.351 seconds
+[2025-02-13T16:51:31.529+0000] {processor.py:186} INFO - Started process (PID=979) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:51:31.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:51:31.596+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:51:31.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:51:32.117+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:51:32.117+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:51:32.172+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:51:32.293+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:51:32.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:51:32.458+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:51:32.457+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:51:32.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 1.119 seconds
+[2025-02-13T16:52:04.178+0000] {processor.py:186} INFO - Started process (PID=994) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:04.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:52:04.199+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:04.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:04.581+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:04.580+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:52:04.633+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:04.748+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:04.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:52:04.914+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:04.913+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:52:05.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.911 seconds
+[2025-02-13T16:52:35.932+0000] {processor.py:186} INFO - Started process (PID=1009) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:35.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:52:35.966+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:35.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:36.311+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:36.310+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:52:36.346+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:52:36.442+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:36.441+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:52:37.662+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:52:37.661+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:52:37.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 2.009 seconds
+[2025-02-13T16:53:08.316+0000] {processor.py:186} INFO - Started process (PID=1024) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:08.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:53:08.323+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:08.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:08.379+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:08.379+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:53:08.403+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:08.436+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:08.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:53:08.471+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:08.470+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:53:08.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.203 seconds
+[2025-02-13T16:53:39.070+0000] {processor.py:186} INFO - Started process (PID=1039) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:39.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:53:39.076+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:39.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:39.108+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:39.107+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:53:39.123+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:53:39.164+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:39.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:53:39.211+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:53:39.211+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:53:39.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.225 seconds
+[2025-02-13T16:54:09.840+0000] {processor.py:186} INFO - Started process (PID=1054) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:09.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:54:09.846+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:09.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:09.875+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:09.875+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:54:09.888+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:09.926+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:09.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:54:09.958+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:09.958+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:54:09.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.161 seconds
+[2025-02-13T16:54:40.794+0000] {processor.py:186} INFO - Started process (PID=1069) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:40.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:54:40.798+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:40.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:40.825+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:40.824+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:54:40.838+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:54:40.884+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:40.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:54:40.925+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:54:40.924+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:54:40.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.199 seconds
+[2025-02-13T16:55:11.743+0000] {processor.py:186} INFO - Started process (PID=1084) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:11.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:55:11.747+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:11.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:11.792+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:11.791+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:55:11.806+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:11.846+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:11.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:55:11.891+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:11.890+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:55:12.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.683 seconds
+[2025-02-13T16:55:43.276+0000] {processor.py:186} INFO - Started process (PID=1099) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:43.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:55:43.283+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:43.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:43.313+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:43.313+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:55:43.326+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:55:43.362+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:43.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:55:43.405+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:55:43.405+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:55:43.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.186 seconds
+[2025-02-13T16:56:13.921+0000] {processor.py:186} INFO - Started process (PID=1114) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:13.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:56:13.926+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:13.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:13.953+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:13.953+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:56:13.970+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:14.012+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:14.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:56:14.047+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:14.047+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:56:14.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.168 seconds
+[2025-02-13T16:56:44.716+0000] {processor.py:186} INFO - Started process (PID=1129) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:44.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:56:44.725+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:44.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:44.749+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:44.748+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:56:44.761+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:56:44.804+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:44.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:56:44.859+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:56:44.859+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:56:44.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.189 seconds
+[2025-02-13T16:57:15.494+0000] {processor.py:186} INFO - Started process (PID=1144) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:15.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:57:15.511+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:15.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:15.546+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:15.546+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:57:15.570+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:15.611+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:15.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:57:15.649+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:15.648+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:57:15.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.203 seconds
+[2025-02-13T16:57:46.018+0000] {processor.py:186} INFO - Started process (PID=1159) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:46.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:57:46.021+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:46.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:46.040+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:46.040+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:57:46.053+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:57:46.087+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:46.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:57:46.122+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:57:46.121+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:57:46.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.144 seconds
+[2025-02-13T16:58:16.652+0000] {processor.py:186} INFO - Started process (PID=1174) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:16.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:58:16.656+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:16.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:16.679+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:16.678+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:58:16.692+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:16.724+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:16.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:58:16.758+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:16.758+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:58:17.065+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.424 seconds
+[2025-02-13T16:58:47.532+0000] {processor.py:186} INFO - Started process (PID=1189) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:47.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:58:47.535+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:47.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:47.576+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:47.576+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:58:47.588+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:58:47.620+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:47.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:58:47.654+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:58:47.654+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:58:47.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.164 seconds
+[2025-02-13T16:59:18.231+0000] {processor.py:186} INFO - Started process (PID=1204) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:18.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:59:18.236+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:18.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:18.269+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:18.268+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:59:18.284+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:18.316+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:18.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:59:18.350+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:18.350+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:59:18.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.158 seconds
+[2025-02-13T16:59:48.639+0000] {processor.py:186} INFO - Started process (PID=1219) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:48.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T16:59:48.644+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:48.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:48.672+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:48.671+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T16:59:48.685+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T16:59:48.723+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:48.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T16:59:48.762+0000] {logging_mixin.py:190} INFO - [2025-02-13T16:59:48.762+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T16:59:48.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.160 seconds
+[2025-02-13T17:00:18.916+0000] {processor.py:186} INFO - Started process (PID=1234) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:18.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:00:18.921+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:18.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:18.942+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:18.941+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:00:18.952+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:18.985+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:18.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:00:19.020+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:19.020+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:00:19.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.146 seconds
+[2025-02-13T17:00:49.600+0000] {processor.py:186} INFO - Started process (PID=1249) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:49.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:00:49.609+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:49.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:49.653+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:49.653+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:00:49.668+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:00:49.701+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:49.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:00:49.734+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:00:49.733+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:00:49.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.187 seconds
+[2025-02-13T17:01:19.990+0000] {processor.py:186} INFO - Started process (PID=1264) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:19.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:01:19.994+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:19.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:20.035+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:20.034+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:01:20.047+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:20.080+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:20.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:01:20.393+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:20.393+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:01:20.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.442 seconds
+[2025-02-13T17:01:50.681+0000] {processor.py:186} INFO - Started process (PID=1279) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:50.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:01:50.686+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:50.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:50.715+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:50.714+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:01:50.727+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:01:50.764+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:50.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:01:50.798+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:01:50.798+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:01:50.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.158 seconds
+[2025-02-13T17:02:21.172+0000] {processor.py:186} INFO - Started process (PID=1294) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:21.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:02:21.176+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:21.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:21.211+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:21.210+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:02:21.226+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:21.260+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:21.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:02:21.293+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:21.293+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:02:21.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.160 seconds
+[2025-02-13T17:02:52.056+0000] {processor.py:186} INFO - Started process (PID=1309) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:52.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:02:52.070+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:52.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:52.249+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:52.248+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:02:52.276+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:02:52.385+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:52.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:02:52.503+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:02:52.503+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:02:52.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.565 seconds
+[2025-02-13T17:03:23.013+0000] {processor.py:186} INFO - Started process (PID=1324) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:23.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:03:23.020+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:23.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:23.052+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:23.052+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:03:23.073+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:23.137+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:23.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:03:23.179+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:23.178+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:03:23.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.209 seconds
+[2025-02-13T17:03:53.773+0000] {processor.py:186} INFO - Started process (PID=1339) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:53.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:03:53.782+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:53.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:53.831+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:53.830+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:03:53.853+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:03:53.920+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:53.919+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:03:53.978+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:03:53.978+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:03:54.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.577 seconds
+[2025-02-13T17:04:24.900+0000] {processor.py:186} INFO - Started process (PID=1354) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:24.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:04:24.906+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:24.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:24.947+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:24.947+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:04:24.961+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:24.998+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:24.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:04:25.031+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:25.031+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:04:25.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.176 seconds
+[2025-02-13T17:04:55.312+0000] {processor.py:186} INFO - Started process (PID=1369) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:55.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:04:55.316+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:55.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:55.339+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:55.339+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:04:55.351+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:04:55.384+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:55.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:04:55.418+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:04:55.418+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:04:55.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.147 seconds
+[2025-02-13T17:05:26.010+0000] {processor.py:186} INFO - Started process (PID=1384) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:26.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:05:26.015+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:26.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:26.047+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:26.047+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:05:26.062+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:26.101+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:26.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:05:26.133+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:26.133+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:05:26.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.163 seconds
+[2025-02-13T17:05:56.691+0000] {processor.py:186} INFO - Started process (PID=1399) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:56.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:05:56.697+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:56.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:56.727+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:56.727+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:05:56.742+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:05:56.774+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:56.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:05:56.808+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:05:56.807+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:05:56.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.188 seconds
+[2025-02-13T17:06:27.289+0000] {processor.py:186} INFO - Started process (PID=1414) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:27.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:06:27.292+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:27.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:27.312+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:27.311+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:06:27.325+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:27.356+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:27.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:06:27.390+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:27.390+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:06:27.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.143 seconds
+[2025-02-13T17:06:57.751+0000] {processor.py:186} INFO - Started process (PID=1429) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:57.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:06:57.756+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:57.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:57.775+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:57.775+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:06:57.789+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:06:57.826+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:57.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:06:58.170+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:06:58.170+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:06:58.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.475 seconds
+[2025-02-13T17:07:28.947+0000] {processor.py:186} INFO - Started process (PID=1444) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:28.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:07:28.954+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:28.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:28.981+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:28.981+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:07:28.993+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:29.029+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:29.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:07:29.064+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:29.064+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:07:29.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.185 seconds
+[2025-02-13T17:07:59.524+0000] {processor.py:186} INFO - Started process (PID=1459) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:59.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:07:59.529+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:59.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:59.568+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:59.568+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:07:59.582+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:07:59.616+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:59.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:07:59.651+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:07:59.651+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:07:59.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.168 seconds
+[2025-02-13T17:08:30.123+0000] {processor.py:186} INFO - Started process (PID=1474) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:08:30.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:08:30.128+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:08:30.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:08:30.161+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:08:30.160+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:08:30.173+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:08:30.205+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:08:30.205+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:08:30.239+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:08:30.239+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:08:30.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.159 seconds
+[2025-02-13T17:09:00.952+0000] {processor.py:186} INFO - Started process (PID=1489) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:00.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:09:00.958+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:00.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:00.988+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:00.987+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:09:01.010+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:01.066+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:01.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:09:01.127+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:01.127+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:09:01.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.239 seconds
+[2025-02-13T17:09:31.707+0000] {processor.py:186} INFO - Started process (PID=1504) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:31.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:09:31.712+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:31.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:31.749+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:31.748+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:09:31.767+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:09:31.813+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:31.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:09:31.850+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:09:31.850+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:09:32.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.471 seconds
+[2025-02-13T17:10:02.881+0000] {processor.py:186} INFO - Started process (PID=1519) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:02.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:10:02.887+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:02.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:02.924+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:02.923+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:10:02.936+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:02.973+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:02.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:10:03.442+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:03.442+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:10:03.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.620 seconds
+[2025-02-13T17:10:34.484+0000] {processor.py:186} INFO - Started process (PID=1534) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:34.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:10:34.488+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:34.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:34.512+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:34.512+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:10:34.524+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:10:34.570+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:34.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:10:34.611+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:10:34.611+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:10:34.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.170 seconds
+[2025-02-13T17:11:05.067+0000] {processor.py:186} INFO - Started process (PID=1549) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:05.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:11:05.076+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:05.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:05.142+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:05.141+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:11:05.167+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:05.208+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:05.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:11:05.251+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:05.251+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:11:05.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.247 seconds
+[2025-02-13T17:11:35.886+0000] {processor.py:186} INFO - Started process (PID=1564) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:35.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:11:35.890+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:35.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:35.908+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:35.908+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:11:35.920+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:11:35.952+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:35.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:11:35.986+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:11:35.986+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:11:36.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.141 seconds
+[2025-02-13T17:12:06.529+0000] {processor.py:186} INFO - Started process (PID=1579) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:06.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:12:06.534+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:06.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:06.561+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:06.561+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:12:06.613+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:06.679+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:06.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:12:06.717+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:06.717+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:12:06.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.229 seconds
+[2025-02-13T17:12:37.330+0000] {processor.py:186} INFO - Started process (PID=1594) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:37.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:12:37.340+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:37.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:37.371+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:37.371+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:12:37.388+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:12:37.446+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:37.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:12:37.506+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:12:37.505+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:12:37.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.634 seconds
+[2025-02-13T17:13:08.606+0000] {processor.py:186} INFO - Started process (PID=1609) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:08.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:13:08.616+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:08.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:08.672+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:08.672+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:13:08.698+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:08.736+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:08.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:13:09.100+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:09.099+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:13:09.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.577 seconds
+[2025-02-13T17:13:39.738+0000] {processor.py:186} INFO - Started process (PID=1627) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:39.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:13:39.743+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:39.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:39.771+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:39.771+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:13:39.791+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:13:39.851+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:39.850+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:13:39.901+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:13:39.901+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:13:39.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.234 seconds
+[2025-02-13T17:14:10.162+0000] {processor.py:186} INFO - Started process (PID=1642) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:10.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:14:10.167+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:10.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:10.190+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:10.190+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:14:10.204+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:10.246+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:10.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:14:10.290+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:10.290+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:14:10.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.172 seconds
+[2025-02-13T17:14:40.636+0000] {processor.py:186} INFO - Started process (PID=1657) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:40.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:14:40.642+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:40.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:40.666+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:40.666+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:14:40.681+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:14:40.732+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:40.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:14:40.775+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:14:40.775+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:14:40.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.192 seconds
+[2025-02-13T17:15:11.418+0000] {processor.py:186} INFO - Started process (PID=1672) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:11.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:15:11.423+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:11.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:11.444+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:11.444+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:15:11.458+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:11.500+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:11.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:15:11.543+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:11.542+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:15:11.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 0.175 seconds
+[2025-02-13T17:15:42.035+0000] {processor.py:186} INFO - Started process (PID=1687) to work on /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:42.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/load-bigquery-dag.py for tasks to queue
+[2025-02-13T17:15:42.041+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:42.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:42.074+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:42.073+0000] {load-bigquery-dag.py:17} WARNING - ⚠️ ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T17:15:42.092+0000] {processor.py:925} INFO - DAG(s) 'load_bigquery_dag' retrieved from /opt/airflow/dags/load-bigquery-dag.py
+[2025-02-13T17:15:42.145+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:42.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-13T17:15:43.418+0000] {logging_mixin.py:190} INFO - [2025-02-13T17:15:43.418+0000] {dag.py:4180} INFO - Setting next_dagrun for load_bigquery_dag to None, run_after=None
+[2025-02-13T17:15:43.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/load-bigquery-dag.py took 1.468 seconds

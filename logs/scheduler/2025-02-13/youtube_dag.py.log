@@ -1,0 +1,1092 @@
+[2025-02-13T09:43:45.923+0000] {processor.py:186} INFO - Started process (PID=1476) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:43:45.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:43:45.929+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:43:45.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:43:45.992+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:43:45.976+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:43:45.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:43:46.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.152 seconds
+[2025-02-13T09:44:16.190+0000] {processor.py:186} INFO - Started process (PID=1486) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:16.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:44:16.198+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:44:16.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:16.237+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:44:16.229+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:44:16.241+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:16.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.135 seconds
+[2025-02-13T09:44:47.037+0000] {processor.py:186} INFO - Started process (PID=1491) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:47.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:44:47.048+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:44:47.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:47.089+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:44:47.080+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:44:47.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:44:47.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.194 seconds
+[2025-02-13T09:45:20.304+0000] {processor.py:186} INFO - Started process (PID=1501) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:20.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:45:20.324+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:45:20.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:20.395+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:45:20.383+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:45:20.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:20.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.184 seconds
+[2025-02-13T09:45:53.015+0000] {processor.py:186} INFO - Started process (PID=1511) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:53.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:45:53.021+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:45:53.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:53.050+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:45:53.042+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:45:53.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:45:53.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.095 seconds
+[2025-02-13T09:46:26.875+0000] {processor.py:186} INFO - Started process (PID=1521) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:46:26.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:46:26.883+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:46:26.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:46:26.926+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:46:26.919+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:46:26.929+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:46:27.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.151 seconds
+[2025-02-13T09:46:59.870+0000] {processor.py:186} INFO - Started process (PID=1531) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:46:59.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:46:59.882+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:46:59.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:46:59.929+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:46:59.912+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:46:59.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:47:00.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.152 seconds
+[2025-02-13T09:47:32.946+0000] {processor.py:186} INFO - Started process (PID=1541) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:47:32.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:47:32.959+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:47:32.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:47:32.994+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:47:32.988+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:47:32.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:47:33.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.101 seconds
+[2025-02-13T09:48:06.839+0000] {processor.py:186} INFO - Started process (PID=1551) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:06.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:48:06.847+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:48:06.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:06.876+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:48:06.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:48:06.878+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:06.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.093 seconds
+[2025-02-13T09:48:39.571+0000] {processor.py:186} INFO - Started process (PID=1561) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:39.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:48:39.576+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:48:39.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:39.617+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:48:39.611+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:48:39.622+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:48:39.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.114 seconds
+[2025-02-13T09:49:13.363+0000] {processor.py:186} INFO - Started process (PID=1576) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:13.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:49:13.532+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:49:13.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:13.727+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:49:13.684+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:49:13.738+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:14.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 1.231 seconds
+[2025-02-13T09:49:45.225+0000] {processor.py:186} INFO - Started process (PID=1591) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:45.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:49:45.234+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:49:45.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:45.260+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:49:45.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:49:45.262+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:49:45.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.093 seconds
+[2025-02-13T09:50:16.199+0000] {processor.py:186} INFO - Started process (PID=1606) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:16.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:50:16.205+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:50:16.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:16.235+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:50:16.229+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:50:16.237+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:16.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.085 seconds
+[2025-02-13T09:50:47.232+0000] {processor.py:186} INFO - Started process (PID=1621) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:47.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:50:47.239+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:50:47.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:47.277+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:50:47.267+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:50:47.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:50:47.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.110 seconds
+[2025-02-13T09:51:18.247+0000] {processor.py:186} INFO - Started process (PID=1636) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:18.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:51:18.273+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:51:18.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:18.312+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:51:18.305+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:51:18.315+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:18.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.180 seconds
+[2025-02-13T09:51:48.582+0000] {processor.py:186} INFO - Started process (PID=1651) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:48.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:51:48.591+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:51:48.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:48.622+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:51:48.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:51:48.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:51:48.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.106 seconds
+[2025-02-13T09:52:19.814+0000] {processor.py:186} INFO - Started process (PID=1666) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:19.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:52:19.832+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:52:19.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:20.037+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:52:19.984+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:52:20.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:20.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 1.089 seconds
+[2025-02-13T09:52:51.076+0000] {processor.py:186} INFO - Started process (PID=1681) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:51.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:52:51.084+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:52:51.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:51.112+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:52:51.107+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:52:51.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:52:51.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.237 seconds
+[2025-02-13T09:53:21.960+0000] {processor.py:186} INFO - Started process (PID=1696) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:21.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:53:21.968+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:53:21.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:22.028+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:53:22.020+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:53:22.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:22.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.131 seconds
+[2025-02-13T09:53:52.469+0000] {processor.py:186} INFO - Started process (PID=1711) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:52.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:53:52.491+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:53:52.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:52.527+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:53:52.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:53:52.530+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:53:52.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.141 seconds
+[2025-02-13T09:54:23.557+0000] {processor.py:186} INFO - Started process (PID=1726) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:23.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:54:23.577+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:54:23.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:23.627+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:54:23.615+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:54:23.638+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:23.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.220 seconds
+[2025-02-13T09:54:54.755+0000] {processor.py:186} INFO - Started process (PID=1741) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:54.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:54:54.762+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:54:54.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:54.790+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:54:54.783+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:54:54.793+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:54:54.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.125 seconds
+[2025-02-13T09:55:25.651+0000] {processor.py:186} INFO - Started process (PID=1756) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:55:25.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:55:25.887+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:55:25.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:55:26.129+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:55:26.084+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:55:26.143+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:55:26.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 1.465 seconds
+[2025-02-13T09:57:20.415+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:57:20.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:57:20.434+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:57:20.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:57:20.512+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:57:20.496+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:57:20.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:57:20.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.261 seconds
+[2025-02-13T09:59:24.556+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:59:24.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T09:59:24.571+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:59:24.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:59:24.606+0000] {logging_mixin.py:190} INFO - [2025-02-13T09:59:24.598+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T09:59:24.616+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T09:59:24.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.275 seconds
+[2025-02-13T10:00:00.183+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:00.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:00:00.190+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:00:00.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:00.221+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:00:00.217+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:00:00.224+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:00.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.119 seconds
+[2025-02-13T10:00:30.831+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:30.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:00:30.844+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:00:30.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:30.893+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:00:30.887+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:00:30.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:00:30.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.154 seconds
+[2025-02-13T10:01:01.833+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:01.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:01:01.840+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:01:01.839+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:01.874+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:01:01.866+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:01:01.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:01.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.122 seconds
+[2025-02-13T10:01:32.949+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:32.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:01:33.056+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:01:33.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:33.184+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:01:33.161+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:01:33.186+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:01:33.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.815 seconds
+[2025-02-13T10:02:05.034+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:05.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:02:05.382+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:02:05.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:06.693+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:02:06.592+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:02:06.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:08.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 4.073 seconds
+[2025-02-13T10:02:40.397+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:40.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:02:40.404+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:02:40.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:40.432+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:02:40.426+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:02:40.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:02:40.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 1.160 seconds
+[2025-02-13T10:03:11.322+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:11.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:03:11.328+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:03:11.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:11.355+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:03:11.348+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:03:11.357+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:11.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.117 seconds
+[2025-02-13T10:03:41.845+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:41.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:03:41.850+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:03:41.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:41.927+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:03:41.912+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:03:41.930+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:03:42.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.373 seconds
+[2025-02-13T10:04:12.322+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:12.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:04:12.329+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:04:12.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:12.354+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:04:12.348+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:04:12.356+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:12.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.445 seconds
+[2025-02-13T10:04:43.016+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:43.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:04:43.022+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:04:43.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:43.054+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:04:43.047+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:04:43.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:04:43.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.116 seconds
+[2025-02-13T10:05:13.997+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:14.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:05:14.006+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:05:14.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:14.032+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:05:14.025+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:05:14.035+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:14.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.130 seconds
+[2025-02-13T10:05:44.850+0000] {processor.py:186} INFO - Started process (PID=347) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:44.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:05:44.858+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:05:44.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:44.940+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:05:44.922+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:05:44.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:05:44.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.159 seconds
+[2025-02-13T10:06:15.166+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:15.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:06:15.172+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:06:15.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:15.198+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:06:15.192+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:06:15.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:15.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.099 seconds
+[2025-02-13T10:06:46.048+0000] {processor.py:186} INFO - Started process (PID=377) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:46.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:06:46.056+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:06:46.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:46.083+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:06:46.078+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:06:46.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:06:46.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.130 seconds
+[2025-02-13T10:07:16.780+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:16.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:07:16.788+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:07:16.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:16.817+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:07:16.811+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:07:16.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:17.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.463 seconds
+[2025-02-13T10:07:48.057+0000] {processor.py:186} INFO - Started process (PID=407) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:48.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:07:48.093+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:07:48.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:48.169+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:07:48.161+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:07:48.179+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:07:48.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.333 seconds
+[2025-02-13T10:08:18.999+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:19.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:08:19.006+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:08:19.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:19.038+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:08:19.031+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:08:19.041+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:19.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.233 seconds
+[2025-02-13T10:08:49.795+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:49.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:08:49.803+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:08:49.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:49.833+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:08:49.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:08:49.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:08:49.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.132 seconds
+[2025-02-13T10:09:20.496+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:20.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:09:20.502+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:09:20.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:20.530+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:09:20.524+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:09:20.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:20.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.099 seconds
+[2025-02-13T10:09:51.070+0000] {processor.py:186} INFO - Started process (PID=467) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:51.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:09:51.088+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:09:51.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:51.117+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:09:51.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:09:51.120+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:09:51.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.203 seconds
+[2025-02-13T10:10:21.731+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:21.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:10:21.737+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:10:21.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:21.766+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:10:21.759+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:10:21.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:21.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.108 seconds
+[2025-02-13T10:10:52.356+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:52.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:10:52.364+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:10:52.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:52.391+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:10:52.385+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:10:52.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:10:52.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.122 seconds
+[2025-02-13T10:11:22.981+0000] {processor.py:186} INFO - Started process (PID=512) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:22.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:11:22.989+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:11:22.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:23.015+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:11:23.009+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:11:23.017+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:23.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.266 seconds
+[2025-02-13T10:11:53.721+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:53.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:11:53.731+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:11:53.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:53.779+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:11:53.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:11:53.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:11:53.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.165 seconds
+[2025-02-13T10:12:24.239+0000] {processor.py:186} INFO - Started process (PID=541) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:24.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:12:24.246+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:12:24.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:24.276+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:12:24.269+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:12:24.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:24.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.692 seconds
+[2025-02-13T10:12:57.690+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:57.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:12:57.698+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:12:57.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:57.724+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:12:57.719+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:12:57.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:12:58.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.371 seconds
+[2025-02-13T10:13:28.263+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:28.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:13:28.271+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:13:28.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:28.292+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:13:28.286+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:13:28.295+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:28.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.096 seconds
+[2025-02-13T10:13:58.565+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:58.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:13:58.572+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:13:58.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:58.602+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:13:58.594+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:13:58.605+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:13:58.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.141 seconds
+[2025-02-13T10:14:29.333+0000] {processor.py:186} INFO - Started process (PID=597) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:14:29.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:14:29.341+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:14:29.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:14:29.370+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:14:29.363+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:14:29.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:14:29.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.211 seconds
+[2025-02-13T10:15:00.001+0000] {processor.py:186} INFO - Started process (PID=612) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:00.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:15:00.007+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:15:00.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:00.037+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:15:00.031+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:15:00.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:00.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.179 seconds
+[2025-02-13T10:15:30.627+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:30.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:15:30.634+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:15:30.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:30.690+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:15:30.684+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:15:30.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:15:30.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.165 seconds
+[2025-02-13T10:16:01.248+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:01.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:16:01.269+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:16:01.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:01.306+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:16:01.299+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:16:01.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:01.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.150 seconds
+[2025-02-13T10:16:31.862+0000] {processor.py:186} INFO - Started process (PID=657) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:31.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:16:31.868+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:16:31.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:31.896+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:16:31.890+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:16:31.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:16:31.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.105 seconds
+[2025-02-13T10:17:02.454+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:02.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:17:02.465+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:17:02.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:02.492+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:17:02.487+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:17:02.495+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:02.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.117 seconds
+[2025-02-13T10:17:33.049+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:33.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:17:33.058+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:17:33.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:33.086+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:17:33.080+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:17:33.088+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:17:33.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.097 seconds
+[2025-02-13T10:18:03.603+0000] {processor.py:186} INFO - Started process (PID=702) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:03.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:18:03.615+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:18:03.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:03.647+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:18:03.640+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:18:03.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:03.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.138 seconds
+[2025-02-13T10:18:34.211+0000] {processor.py:186} INFO - Started process (PID=717) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:34.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:18:34.218+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:18:34.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:34.250+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:18:34.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:18:34.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:18:34.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.115 seconds
+[2025-02-13T10:19:05.084+0000] {processor.py:186} INFO - Started process (PID=732) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:05.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:19:05.090+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:19:05.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:05.120+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:19:05.114+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:19:05.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:05.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.101 seconds
+[2025-02-13T10:19:35.676+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:35.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:19:35.685+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:19:35.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:35.717+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:19:35.709+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:19:35.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:19:35.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.105 seconds
+[2025-02-13T10:20:06.222+0000] {processor.py:186} INFO - Started process (PID=762) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:06.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:20:06.230+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:20:06.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:06.261+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:20:06.253+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:20:06.263+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:06.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.224 seconds
+[2025-02-13T10:20:36.901+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:36.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:20:36.909+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:20:36.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:36.941+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:20:36.935+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:20:36.944+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:20:36.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.106 seconds
+[2025-02-13T10:21:07.531+0000] {processor.py:186} INFO - Started process (PID=792) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:07.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:21:07.537+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:21:07.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:07.564+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:21:07.559+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:21:07.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:07.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.119 seconds
+[2025-02-13T10:21:37.785+0000] {processor.py:186} INFO - Started process (PID=807) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:37.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:21:37.796+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:21:37.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:37.828+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:21:37.818+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:21:37.830+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:21:38.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.471 seconds
+[2025-02-13T10:22:08.737+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:08.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:22:08.745+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:22:08.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:08.774+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:22:08.767+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:22:08.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:08.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.110 seconds
+[2025-02-13T10:22:39.619+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:39.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:22:39.627+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:22:39.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:39.659+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:22:39.652+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:22:39.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:22:39.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.105 seconds
+[2025-02-13T10:23:10.532+0000] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:10.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:23:10.540+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:10.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:10.582+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:10.576+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 6, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:23:10.584+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:10.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.334 seconds
+[2025-02-13T10:23:23.207+0000] {processor.py:186} INFO - Started process (PID=864) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:23.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:23:23.212+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:23.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:23.246+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:23.240+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:23:23.248+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:23.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.090 seconds
+[2025-02-13T10:23:24.279+0000] {processor.py:186} INFO - Started process (PID=869) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:24.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:23:24.285+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:24.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:24.343+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:23:24.335+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:23:24.346+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:23:24.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.127 seconds
+[2025-02-13T10:25:05.355+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:05.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:25:05.414+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:25:05.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:05.492+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:25:05.473+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:25:05.494+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:05.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.595 seconds
+[2025-02-13T10:25:47.828+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:47.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:25:47.855+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:25:47.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:47.930+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:25:47.914+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:25:47.935+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:25:48.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.234 seconds
+[2025-02-13T10:26:18.925+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:18.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:26:18.952+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:26:18.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:18.999+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:26:18.992+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:26:19.006+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:19.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.209 seconds
+[2025-02-13T10:26:49.901+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:49.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:26:49.922+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:26:49.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:49.968+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:26:49.958+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:26:49.972+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:26:50.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.168 seconds
+[2025-02-13T10:27:20.393+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:27:20.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/youtube_dag.py for tasks to queue
+[2025-02-13T10:27:20.456+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:27:20.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:27:20.545+0000] {logging_mixin.py:190} INFO - [2025-02-13T10:27:20.530+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/youtube_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/youtube_dag.py", line 5, in <module>
+    from scripts.fetch_youtube import fetch_youtube_data
+ModuleNotFoundError: No module named 'scripts.fetch_youtube'
+[2025-02-13T10:27:20.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/youtube_dag.py
+[2025-02-13T10:27:21.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/youtube_dag.py took 0.750 seconds

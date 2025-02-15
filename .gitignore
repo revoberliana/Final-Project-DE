@@ -1,0 +1,5 @@
+.env
+gcp-key.json
+youtube-api-key.json
+"exec -l"/
+venv/

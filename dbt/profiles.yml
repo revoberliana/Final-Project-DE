@@ -1,0 +1,10 @@
+bq_project:
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: dibimbing-442703.dibimbing
+      dataset: dbt_dataset
+      threads: 4
+      location: US
+  target: dev

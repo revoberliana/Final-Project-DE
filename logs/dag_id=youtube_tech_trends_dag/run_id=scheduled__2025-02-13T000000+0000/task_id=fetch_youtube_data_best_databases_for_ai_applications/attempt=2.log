@@ -1,0 +1,18 @@
+[2025-02-14T16:56:10.816+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-14T16:56:10.986+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_tech_trends_dag.fetch_youtube_data_best_databases_for_ai_applications scheduled__2025-02-13T00:00:00+00:00 [queued]>
+[2025-02-14T16:56:11.082+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_tech_trends_dag.fetch_youtube_data_best_databases_for_ai_applications scheduled__2025-02-13T00:00:00+00:00 [queued]>
+[2025-02-14T16:56:11.085+0000] {taskinstance.py:2867} INFO - Starting attempt 2 of 2
+[2025-02-14T16:56:11.255+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_youtube_data_best_databases_for_ai_applications> on 2025-02-13 00:00:00+00:00
+[2025-02-14T16:56:11.370+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1187) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-14T16:56:11.383+0000] {standard_task_runner.py:72} INFO - Started process 1215 to run task
+[2025-02-14T16:56:11.433+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_tech_trends_dag', 'fetch_youtube_data_best_databases_for_ai_applications', 'scheduled__2025-02-13T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/fetch-youtube-dag.py', '--cfg-path', '/tmp/tmpoyodwd5t']
+[2025-02-14T16:56:11.440+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask fetch_youtube_data_best_databases_for_ai_applications
+[2025-02-14T16:56:15.220+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_tech_trends_dag.fetch_youtube_data_best_databases_for_ai_applications scheduled__2025-02-13T00:00:00+00:00 [running]> on host 79903c5a5135
+[2025-02-14T16:56:18.022+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='youtube_tech_trends_dag' AIRFLOW_CTX_TASK_ID='fetch_youtube_data_best_databases_for_ai_applications' AIRFLOW_CTX_EXECUTION_DATE='2025-02-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-13T00:00:00+00:00'
+[2025-02-14T16:56:18.172+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-14T16:56:21.413+0000] {fetch-youtube-dag.py:68} INFO - ✅ Data berhasil disimpan: /opt/***/data/youtube_Best_Databases_for_AI_Applications.csv
+[2025-02-14T16:56:21.522+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-14T16:56:21.782+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-14T16:56:21.784+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=youtube_tech_trends_dag, task_id=fetch_youtube_data_best_databases_for_ai_applications, run_id=scheduled__2025-02-13T00:00:00+00:00, execution_date=20250213T000000, start_date=20250214T165610, end_date=20250214T165621
+[2025-02-14T16:56:22.788+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-14T16:56:22.947+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
