@@ -1,11 +1,18 @@
 version: '3.7'
+
 services:
   airflow:
     container_name: revo_airflow_webserver
-    image: apache/airflow:latest
+    image: apache/airflow:2.7.3  # Gunakan versi yang stabil
     restart: always
     env_file:
       - .env
+    environment:
+      - AIRFLOW_HOME=/opt/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__FERNET_KEY=${AIRFLOW__CORE__FERNET_KEY}
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -19,10 +26,10 @@ services:
       - "8080:8080"
     command: ["webserver"]
     depends_on:
+      scheduler:
+        condition: service_healthy
       postgres:
         condition: service_healthy
-      scheduler:
-        condition: service_started
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
@@ -31,10 +38,13 @@ services:
 
   scheduler:
     container_name: revo_airflow_scheduler
-    image: apache/airflow:latest
+    image: apache/airflow:2.7.3  # Gunakan versi yang stabil
     restart: always
     env_file:
       - .env
+    environment:
+      - AIRFLOW_HOME=/opt/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -48,9 +58,14 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD", "airflow", "jobs", "check", "--job-type", "SchedulerJob"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
   postgres:
-    image: postgres:latest
+    image: postgres:15  # Gunakan versi yang stabil
     container_name: revo_airflow_postgres
     restart: always
     environment:
