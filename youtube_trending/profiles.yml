@@ -1,0 +1,14 @@
+youtube_trending:
+  outputs:
+    dev:
+      dataset: dibimbing
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: service-account
+      priority: interactive
+      project: dibimbing-442703
+      threads: 4
+      type: bigquery
+      keyfile: "/opt/airflow/gcp-key.json"
+  target: dev
