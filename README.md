@@ -4,6 +4,7 @@
 
 Proyek ini membangun arsitektur ELT (Extract, Load, Transform) yang mengambil data dari YouTube API setiap hari, menyimpannya di Google BigQuery sebagai Data Warehouse (DWH), dan menggunakan dbt untuk transformasi data sebelum divisualisasikan di Google Data Studio.
 
+
 ![image](https://github.com/user-attachments/assets/6f1429f4-e1d3-4e84-bc9b-93d154356507)
 
 
@@ -54,4 +55,4 @@ link dashboard : https://lookerstudio.google.com/reporting/9cf20d1d-85a1-46ee-a0
 
 About the Author 👩‍💻
 
-Revo Berliana | 📧 Email: berlianarevo@Gmail.com | 🌐 LinkedIn: www.linkedin.com/in/revo-berliana-92232515a
+Revo Berliana | 📧 Email: berlianarevo@Gmail.com | 🌐 LinkedIn: www.linkedin.com/in/revo-berliana-92232515a 
