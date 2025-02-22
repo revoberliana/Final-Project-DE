@@ -1,47 +1,30 @@
-import os
 from airflow import DAG
-from airflow.utils.dates import days_ago
-from airflow.providers.docker.operators.docker import DockerOperator
-from docker.types import Mount
+from airflow.operators.bash import BashOperator
+from datetime import datetime
 
-# Gunakan absolute path untuk mounting
-BASE_DIR = os.getenv("AIRFLOW_HOME", "/opt/airflow/dbt")
+default_args = {
+    'owner': 'airflow',
+    'start_date': datetime(2024, 2, 22),
+    'retries': 1,
+}
 
-dag = DAG(
-    "dbt_bigquery_update",
-    schedule_interval="0 15 * * *",
-    start_date=days_ago(1),
+with DAG(
+    dag_id='dbt_run_dag',
+    default_args=default_args,
+    schedule_interval='@daily',
     catchup=False,
-)
+) as dag:
 
-# Task untuk menjalankan dbt run di staging
-dbt_staging = DockerOperator(
-    task_id="run_dbt_staging",
-    image="ghcr.io/dbt-labs/dbt-bigquery:latest",
-    api_version="auto",
-    auto_remove=True,
-    command="dbt run --select staging.stg_youtube_data",
-    network_mode="bridge",
-    mounts=[
-        Mount(source=f"{BASE_DIR}/youtube_trending", target="/usr/app/dbt", type="bind"),
-        Mount(source=f"{BASE_DIR}/profiles.yml", target="/root/.dbt/profiles.yml", type="bind"),
-    ],
-    dag=dag,
-)
+    dbt_staging = BashOperator(
+        task_id='dbt_staging',
+        bash_command='cd /opt/airflow/dbt && dbt run --select staging',
+        do_xcom_push=True
+    )
 
-# Task untuk menjalankan dbt run di fact table
-dbt_fact = DockerOperator(
-    task_id="run_dbt_fact",
-    image="ghcr.io/dbt-labs/dbt-bigquery:latest",
-    api_version="auto",
-    auto_remove=True,
-    command="dbt run --select marts.fact_video_performance",
-    network_mode="bridge",
-    mounts=[
-        Mount(source=f"{BASE_DIR}/youtube_trending", target="/usr/app/dbt", type="bind"),
-        Mount(source=f"{BASE_DIR}/profiles.yml", target="/home/airflow/.dbt/profiles.yml", type="bind"),
-    ],
-    dag=dag,
-)
+    dbt_mart = BashOperator(
+        task_id='dbt_mart',
+        bash_command='cd /opt/airflow/dbt && dbt run --select marts',
+        do_xcom_push=True
+    )
 
-dbt_staging >> dbt_fact
+    dbt_staging >> dbt_mart  
