@@ -52,6 +52,6 @@ Task 5: run_dbt_mart → Menjalankan model akhir dbt untuk analisis
 link dashboard : https://lookerstudio.google.com/reporting/9cf20d1d-85a1-46ee-a039-65afe1468da4
 
 
-📌 Kontributor
+About the Author 👩‍💻
 
-@revoberliana
+Revo Berliana | 📧 Email: berlianarevo@Gmail.com | 🌐 LinkedIn: www.linkedin.com/in/revo-berliana-92232515a
